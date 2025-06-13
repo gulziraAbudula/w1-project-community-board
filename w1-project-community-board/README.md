@@ -34,7 +34,7 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented required features:
 
 <img src='/assets/Codepath_WEB102_Week01.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-https://github.com/gulziraAbudula/w1-project-community-board/blob/0eeea33dc3ad43e9ffd32457db4f66f831aee531/w1-project-community-board/assets/Codepath_WEB102_Week01.gif
+https://imgur.com/a/LquH3RS
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with LICEcap  
