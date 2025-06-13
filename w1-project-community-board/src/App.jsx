@@ -50,6 +50,38 @@ function App() {
       description: 'Weekly guided meditation sessions focusing on stress relief and mental wellness.',
       link: null,
       date: 'Every Thursday, 7:00 PM',
+    },
+    {
+      id: 7,
+      title: 'Couch to 5K Training Program',
+      type: 'Training Program',
+      description: '9-week running program designed to get beginners from couch to running a 5K race.',
+      link: 'https://www.nhs.uk/live-well/exercise/running-and-aerobic-exercises/get-running-with-couch-to-5k/',
+      date: 'Self-paced',
+    },
+    {
+      id: 8,
+      title: 'Nutrition Workshop: Meal Prep Basics',
+      type: 'Workshop',
+      description: 'Learn how to prepare healthy meals for the week. Includes recipe booklet and containers!',
+      link: 'https://example.com/meal-prep-workshop',
+      date: 'August 15, 2025',
+    },
+    {
+      id: 9,
+      title: 'Fitness Buddy Matching',
+      type: 'Community Service',
+      description: 'Get paired with a local workout partner who shares your fitness goals and schedule.',
+      link: null,
+      date: 'Ongoing signups',
+    },
+    {
+      id: 10,
+      title: 'MyFitnessPal - Calorie Tracking',
+      type: 'Mobile App',
+      description: 'Track your daily nutrition and exercise with this comprehensive fitness app.',
+      link: 'https://www.myfitnesspal.com/',
+      date: null,
     }
   ];
 
