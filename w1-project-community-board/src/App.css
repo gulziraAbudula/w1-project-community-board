@@ -40,3 +40,118 @@
 .read-the-docs {
   color: #888;
 }
+
+/* src/App.css */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.app-container {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px 40px;
+  max-width: 1200px;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  color: #2c3e50;
+  font-size: 2.5em;
+  margin-bottom: 15px;
+}
+
+.board-description {
+  font-size: 1.1em;
+  color: #555;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.resources-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 25px;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+/* Styling for ResourceCard */
+.resource-card {
+  background-color: #e8f5e9; /* Light green background */
+  border: 1px solid #c8e6c9;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: left;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Pushes content to top/bottom */
+  min-height: 180px; /* Ensure consistent card height */
+}
+
+.resource-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12);
+}
+
+.resource-card h3 {
+  color: #1b5e20; /* Darker green for titles */
+  margin-top: 0;
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+.resource-card .resource-type {
+  font-size: 0.9em;
+  color: #4caf50; /* Medium green for type */
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.resource-card p {
+  font-size: 1em;
+  line-height: 1.5;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.resource-card a {
+  color: #007bff; /* Blue for links */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.resource-card a:hover {
+  text-decoration: underline;
+}
+
+.resource-card .resource-date {
+    font-size: 0.85em;
+    color: #777;
+    margin-top: auto; /* Pushes date to the bottom if present */
+    padding-top: 10px;
+    border-top: 1px solid #c8e6c9;
+}
+
+@media (max-width: 768px) {
+    .app-container {
+        padding: 20px;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    .resources-grid {
+        grid-template-columns: 1fr; /* Single column on smaller screens */
+    }
+}
